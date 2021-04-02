@@ -1,0 +1,176 @@
+/*Body*/
+body{
+    margin: 0;
+    background-color: rgb(217, 255, 227);
+}
+    /*Header*/
+        /*Nav barre*/
+        #navbar {
+            overflow: hidden;
+            background-color: rgba(69, 44, 0, 0.8);
+            position: fixed;
+            top:0;
+            left: 0;
+            z-index: 3;
+            width: 100%;
+          }          
+        #navbar a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 12px;
+            text-decoration: none;
+          }          
+        .content {
+            padding: 16px;
+          }
+        #denomination{
+            text-transform: uppercase;
+            text-align: center;
+            font-family: redressed;
+            letter-spacing: 0.06em;
+
+        }
+        a{
+            font-family: lora;
+        }
+        /*Fin nav barre*/
+
+    /*Fin header*/
+    #home{
+
+        margin-top: 0;
+
+    }
+    .image #img-banner{
+        width: 100%;
+        z-index: 0;
+    }
+
+    #biographie{
+        z-index: 2;
+        text-align: center;
+        margin-top: -15%;
+        margin-bottom: 17%;
+        color:rgb(217, 255, 227);
+        letter-spacing: 0.25em;
+        font-weight: bold;
+        font-family: redressed;
+        font-size: 250%;
+    }
+
+    #bio{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    #conseils-guides{
+        margin-left: 13.5%;
+        margin-right: 20%;
+        margin-top: 150px;
+    }
+
+    .container{
+        width: 80%;
+        display: flex;
+        justify-content:space-around;
+        margin-left: 10%;
+        flex-wrap: wrap;
+    }
+
+    .item{
+        width: 250px;
+        height: 350px;
+        margin-top: 40px; 
+        margin-bottom: 20px;
+        margin-right: 10px;
+        margin-left: 10px;  
+    }
+
+    .text{
+        font-family: lora;
+    }
+
+    .item .image #guides{
+        z-index: 2;
+        width: 250px;
+        height: 150px;
+        border-radius: 4%;
+    }
+
+    .item .text{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .container .item{
+        left: 10%;
+        right: 10%;
+    }
+
+    .item2{
+        width: 400px;
+        height: 450px;
+        margin-top: 50px; 
+        margin-bottom: 20px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .item2 .image #guide2{
+        z-index: 2;
+        width: 400px;
+        height: 240px;
+        border-radius: 4%;
+    }
+
+    .item2 .text{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .container .item2{
+        left: 10%;
+        right: 10%;
+    }
+
+    /*Footer*/
+    footer{
+        background-color:rgb(69, 44, 0);
+        color: white;
+        max-height: 5000px;
+        min-height: 250px;
+        width: 100%;
+        
+        margin-bottom: 0;
+    }
+    .block{
+        margin-top: 40px;
+
+    }
+
+    #text-footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    }
+    .titre{
+        color: green;
+        font-family: lora;
+    }
+    #horaire1{
+        margin-right: 40px;
+
+    }
+    #img-logo{
+        height: 35px;
+        width: 35px;
+        min-width: 35px;
+        min-height: 35px;
+        margin-right: 5px;
+        margin-bottom: 40px;
+    }
+    /*Fin footer*/
+/*Fin body*/
